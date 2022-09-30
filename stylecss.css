@@ -1,0 +1,333 @@
+
+
+html {
+    margin: auto;
+    font-size: 10px;
+    height: 1000px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    background-image: url(Wallpapers-Green-Aesthetic.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body {
+  justify-content: center;
+  align-items: center;
+}
+  
+  /* Navbar */
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 14rem;
+    color: #ffffff;
+    background-color: rgb(49, 89, 48);
+    box-shadow: 0 3px 10px rgb(6, 6, 6);
+    border-radius: 50px;
+    width: 80.5%;
+    height: 60px;
+    align-items: center;
+    position:static;
+  }
+  
+  nav .nav-brand {
+    font-size: 3rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+    color: #ffffff;
+  }
+  
+  nav .nav-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav .nav-section ul {
+    list-style: none;
+  }
+  
+  nav .nav-section ul li {
+    display: inline-block;
+    margin-left: 4rem;
+  }
+  
+  nav .nav-section ul li a {
+    font-size: 2rem;
+    text-decoration: none;
+    color: rgb(255, 249, 249);
+    transition: all 0.3s;
+  }
+  
+ 
+.nav-brand:hover {
+    color:#ffd64f;
+    transform: scale(0.95);
+    cursor: pointer;
+  }
+  .nav-section ul li a:hover {
+    color:#ffd64f ;
+    
+  } 
+  /* End Navbar */
+
+       /*HOME*/
+header{
+  color:#ffffff;
+  justify-content: center;
+}
+.konten img{
+  border-style: solid;
+  border-color: #040404;
+  border-radius: 80px;
+  margin-top: 7rem ;
+  margin-right: 2rem;
+}
+.konten-satu {
+justify-content: center;
+ text-align: center;
+ justify-self:center;
+ margin-top: 7rem;
+ margin-right: 7rem;
+ background: rgba(0,0,0,0.5);
+ border-color: #040404;
+ width: 90rem;
+ height:20rem;
+ border-style: solid; 
+}
+.konten-satu p {
+  font-size: 5rem;
+  
+}
+body .konten-dua {
+  
+  border-radius: 50px 50px 50px 50px ;
+  border-color: #040404;
+  width:93.5%;
+  display: flex;
+  flex-basis: 50%;
+  height: 40rem;
+  text-align: center;
+  margin-top: 12rem;
+  margin-left: 4.5rem;
+ }
+
+ .konten-dua p {
+   font-size: 4.5rem;
+   color: #ffffff;
+   display: flex;
+   flex-basis: 50%;
+   margin-top: 10rem;
+   margin-left: 6rem;
+   background: rgba(0,0,0,0.5);
+   border-color: #040404;
+   height: 26rem;
+   border-radius: 90px;
+   border-style: solid;
+   border-color: #040404;
+   align-items: center;
+   justify-content: center;
+ }
+ .konten-dua> img {
+  display: flex;
+  flex-basis: 30%;
+  border-radius: 250px;
+  margin-left: 15rem;
+  border-style: solid;
+  border-color: #040404;
+ }
+
+        /*PORTOFOLIO*/
+
+header{
+  color: #ffffff;
+  justify-content: left;
+}
+.bagian-satu {
+  font-size: 2rem;
+   color: #ffffff;
+   background: rgba(0,0,0,0.5);
+   border-color: #040404;
+   height: 6rem;
+   width: 75rem;
+   border-radius:70px;
+   border-style: solid;
+   border-color: #040404;
+   align-items: center;
+   justify-content: left;
+}
+.bagian-satu p{
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 2rem;
+   color: #ffd64f;
+}
+.bagian-dua {
+  margin-top: 3rem;
+  color: #ffffff;
+  background: rgba(0,0,0,0.5);
+  border-color: #040404;
+  height: 65rem;
+  width: 140rem;
+  border-radius:70px;
+  border-style: solid;
+  border-color: #040404;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 5rem;
+}
+.bagian-dua h1{
+  font-size: 4rem;
+}
+.bagian-dua> img{
+  width: 30rem;
+  height: 18rem;
+  margin:2rem;
+  margin-top: 4rem;
+  border-radius: 20px;
+  outline-offset: -20px;
+outline-offset: 15px;
+  transition: 0.9s;
+}
+ 
+       /*ABOUT*/
+header{
+  display: flex;
+  margin:4rem 0 6rem 8rem;
+  text-decoration: none;
+}
+.box {
+  background: rgba(0,0,0,0.5);
+  border-style: solid;
+  border-color: #040404;
+  width: 20rem;
+  height:57rem;
+  text-align: center;
+  color: #fff;
+  flex-basis:42% ; 
+  border-radius: 50px;
+  margin-right: 4rem;
+  margin-bottom:5rem;
+}
+.box >img {
+  width: 35rem;
+  border-radius: 70%;
+  margin-top: 3rem;
+  border-style: solid;
+  border-color: #040404;
+}
+.box p{
+  font-size: 3rem;
+  margin-left: 0;
+}
+ 
+.box-dua{
+  background: rgba(0,0,0,0.5);
+  width: 30rem;
+  height:40rem;
+  text-align: center;
+  color: #fff;
+  flex-basis:43% ; 
+  border-radius: 50px;
+  margin-left: 5rem;
+  border-style: solid;
+  border-color: #040404;
+}
+.box-dua h1{
+  font-size: 4rem;
+}
+.box-dua span{
+  color:#ffd64f
+}
+.box-dua p{
+  font-size: 2rem;
+color: #ffffff;
+justify-content: left;
+}
+.box-tiga{
+  margin-top: 1rem;
+  margin-right: 1.5rem;
+  padding: 1rem 4rem;
+  font-size: 2.5rem;
+  background-color:#ffd64f;
+  color: #fff;
+  border: none;
+  border-radius: 2rem;
+  transition: all 0.3s;
+  text-decoration: none;
+}
+.box-empat{
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+  padding: 1rem 4rem;
+  font-size: 2.5rem;
+  background-color: #ffd64f;
+  color: #fff;
+  border: none;
+  border-radius: 2rem;
+  transition: all 0.3s;
+  text-decoration:solid;
+}
+ .box >img:hover{
+  transform: scale(0.99);
+  cursor: pointer;
+ }
+ .box-tiga:hover {
+  box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.2);
+  transform: scale(0.95);
+  cursor: pointer;
+}
+.box-empat:hover {
+  box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.2);
+  transform: scale(0.95);
+  cursor: pointer;
+}
+        /*FOOTER*/
+footer {
+  display: flex;
+  justify-content:center;
+  padding: 2.4rem;
+  color: #263238;
+  background-color: rgb(50, 86, 46);
+  width:95.5% ;
+  height: 11rem;
+  box-shadow: 3px 4px 12px rgb(0, 0, 0);
+  border-radius:20px 20px 0 0;
+  position: absolute;
+}
+  
+footer .footer-conten{
+  font-size: 1.5rem;
+}
+footer ul li {
+  display: inline-block;
+  justify-content: center;
+}
+footer ul li a{
+  margin: 2rem;
+  align-items: center;
+ 
+}
+footer h3{
+font-size: 1.8rem ;
+justify-content: center;
+color: #ffffff;
+}
+
+footer a{
+  margin-top: 10rem;
+  margin-left: 30%;
+  color: #ffffff;
+}
+
+.box-HOBY a{
+  font-size: 4rem;
+  color:#ffffff;
+  margin-left: 5rem;
+  margin-top: 7rem ;
+}
